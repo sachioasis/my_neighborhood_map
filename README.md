@@ -25,15 +25,7 @@ Use the follwoing link in a browser
 http://localhost:3000/
 ```
 
-## How to run in Production Mode
-To create a production build,use 
-```
-npm run build
-```
-Navigate to the build directory and start the server with 
-```
-npm run deploy
-```
+***NOTE:*** *Foursquare is used to fetch location data.*
 
 ***NOTE:*** *The service workers will only function in production mode.*
 
