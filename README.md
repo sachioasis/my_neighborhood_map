@@ -1,8 +1,8 @@
-# MyReads Project
+# Neighborhood Map Project
+The goal of this project is to build single page web application by using React, the Google Maps API, and data from a third-party API. The app should display both a filtered list of results and a map view of those results including markers of each locations. Also, this appilication should be responsive and accessible.
+This application follow this [Udacity Project Rubric](https://review.udacity.com/#!/rubrics/1351/view)
 
-MyReads project is to create a bookshelf app that allows you to select and categorize books you have read, are currently reading, or want to read. The project emphasizes using React to build the application and provides an API server and client library that you will use to persist information as you interact with the application.
-
-## How to Install
+## How to install
 
 Just clone this project by
 ```
@@ -19,18 +19,27 @@ npm start
 ```
 
 ## How to run
+
 Use the follwoing link in a browser
 ```
 http://localhost:3000/
 ```
 
-## Project Dependencies
-NodeJS libraries:
-- "prop-types": "^15.6.2"
-- "react": "^16.6.3"
-- "react-debounce-input": "^3.2.0"
-- "react-dom": "^16.6.3"
-- "react-router-dom": "^4.3.1"
-- "react-scripts": "2.1.1"
+## How to run in Production Mode
+To create a production build,use 
+```
+npm run build
+```
+Navigate to the build directory and start the server with 
+```
+npm run deploy
+```
+
+***NOTE:*** *The service workers will only function in production mode.*
 
 
+## Dependencies
+- React, ReactDOM
+- axios
+- prop-types
+- serviceWorker
